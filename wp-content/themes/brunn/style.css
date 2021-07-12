@@ -1,0 +1,178 @@
+/*
+Theme Name: Brunn
+Theme URI: http://brunn.select-themes.com
+Description: Creative Agency Theme
+Author: Select Themes
+Author URI: http://themeforest.net/user/select-themes
+Text Domain: brunn
+Tags: one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, custom-menu, featured-images, flexible-header, post-formats, sticky-post, threaded-comments, translation-ready
+Version: 1.6.1
+License: GNU General Public License
+License URI: licence/GPL.txt
+
+CSS changes can be made in files in the /css/ folder. This is a placeholder file required by WordPress, so do not delete it.
+
+*/
+
+@media only screen and (max-height: 1000px) {
+  h1.qodef-st-title {
+    font-size: 35px;
+  }
+  .qodef-mobile-header .qodef-mobile-header-inner {
+    top: 0px !important;
+    background: transparent !important;
+    border-color: transparent !important;
+    position: sticky;
+  }
+  .rs-layer-wrap,
+  rs-mask-wrap,
+  rs-cbg-mask-wrap {
+    padding-left: 43px !important;
+    font-size: 30px !important;
+  }
+  .qodef-dot {
+    background-color: white !important;
+  }
+
+  .page-id-5769 .qodef-dot,
+  .page-id-5493 .qodef-dot,
+  .page-id-5758 .qodef-dot,
+  .page-id-5764 .qodef-dot,
+  .page-id-5658 .qodef-dot,
+  .page-id-5665 .qodef-dot,
+  .page-id-5663 .qodef-dot,
+  .page-id-5880 .qodef-dot,
+  .page-id-5666 .qodef-dot,
+  .page-id-1841 .qodef-dot,
+  .page-id-5668 .qodef-dot,
+  .page-id-5659 .qodef-dot,
+  .page-id-5661 .qodef-dot,
+  .page-id-6058 .qodef-dot,
+  .page-id-6034 .qodef-dot,
+  .page-id-6043 .qodef-dot,
+  .page-id-6048 .qodef-dot {
+    background-color: black !important;
+  }
+}
+
+@media only screen and (max-height: 600px) {
+  .vc_row.wpb_row.vc_row-fluid.vc_custom_1580229338291.vc_row-o-content-middle.vc_row-flex {
+    padding: 0px !important;
+  }
+
+  .vc_custom_1580248540628 {
+    padding: 0px !important;
+  }
+
+  .wpb_column.vc_column_container.vc_col-sm-1 {
+    padding: 0px !important;
+  }
+
+  .vc_row.wpb_row.vc_row-fluid.vc_custom_1580229338291.vc_row-o-content-middle.vc_row-flex {
+    padding: 0px !important;
+  }
+  .vc_row
+    .wpb_row
+    vc_row-fluid
+    .vc_custom_1580229338291
+    vc_row-o-content-middle
+    vc_row-flex {
+    padding: 0px !important;
+  }
+
+  @media only screen and (max-height: 600px) {
+    .rs-layer#slider-13-slide-27-layer-3 {
+      font-size: 25px;
+    }
+  }
+}
+
+nav.qodef-mobile-nav.ps {
+  height: fit-content !important;
+}
+/* #menu-sectors-menu .menu-item {
+  align-items: flex-start;
+  margin-top: 20px;
+} */
+
+/* .page-id-5493 .icon_search,
+.page-id-5769 .icon_search,
+.page-id-5758 .icon_search,
+.page-id-5764 .icon_search {
+  display: none !important;
+} */
+.qodef-mobile-logo-wrapper .a {
+  color: white;
+}
+
+.wpb_single_image img {
+  margin-top: 15px;
+}
+
+.qodef-vertical-align-containers {
+  background: white;
+}
+
+.page-id-5661 .qodef-vertical-align-containers,
+.page-id-5539 .qodef-vertical-align-containers,
+.page-id-5659 .qodef-vertical-align-containers,
+.page-id-5660 .qodef-vertical-align-containers,
+.page-id-5448 .qodef-vertical-align-containers,
+.page-id-5736 .qodef-vertical-align-containers,
+.page-id-1766 .qodef-vertical-align-containers,
+.page-id-1841 .qodef-vertical-align-containers,
+.page-id-5662 .qodef-vertical-align-containers,
+.page-id-5496 .qodef-vertical-align-containers {
+  background: transparent !important;
+}
+
+.qodef-title-holder.qodef-standard-type .qodef-page-title {
+  margin-left: 150px !important;
+}
+
+.page-id-1841 .qodef-page-title entry-title {
+  margin-left: 0px !important;
+}
+
+.qodef-testimonial-image-icon {
+  display: none;
+}
+
+.qodef-image-with-text-holder {
+  position: absolute !important;
+  display: inline-block !important;
+  width: 28% !important;
+  vertical-align: middle !important;
+  bottom: 40px !important;
+  left: 37% !important;
+}
+
+p.qodef-testimonial-text {
+  padding-bottom: 150px;
+}
+
+.qodef-elements-holder.qodef-four-columns .qodef-eh-item {
+  border-right: 1px solid #ccc;
+}
+
+.wpb_wrapper {
+  border: none !important; 
+}
+
+img.vc_single_image-img.attachment-full {
+  margin-top: 0px;
+}
+
+img.qodef-dark-logo {
+  margin-top: 8px;
+}
+
+img.qodef-dark-edge {
+  background-color: currentColor;
+  padding-left: none;
+  
+}
+
+.qodef-single-image-holder .qodef-si-text-box .qodef-si-big-text {
+  font-size: 26px !important;
+}
